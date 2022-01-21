@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kinimonster fructCode</title>
     <link rel="stylesheet" href="assets/css/styles.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="assets/js/script.js"></script>
 </head>
 <body>
     <header>
@@ -41,7 +43,45 @@
                         </div>
                     </div>
                 </li>
+                <li>
+                    <img class="main-slider-img"src="assets/img/hero/joker.jpg" alt="">
+                    <div class="default-container">
+                        <div class="hero-movie">
+                            <p>Fight Club</p>
+                            <p>Discontented with his capitalistic lifestyle, a white-collared insomniac forms an underground fight club with Tyler</p>
+                            <button>WATCH NOW</button>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <img class="main-slider-img"src="assets/img/hero/no-country-for-old-men.jpg" alt="">
+                    <div class="default-container">
+                        <div class="hero-movie">
+                            <p>Fight Club</p>
+                            <p>Discontented with his capitalistic lifestyle, a white-collared insomniac forms an underground fight club with Tyler</p>
+                            <button>WATCH NOW</button>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <img class="main-slider-img"src="assets/img/hero/bladerunner.jpg" alt="">
+                    <div class="default-container">
+                        <div class="hero-movie">
+                            <p>Fight Club</p>
+                            <p>Discontented with his capitalistic lifestyle, a white-collared insomniac forms an underground fight club with Tyler</p>
+                            <button>WATCH NOW</button>
+                        </div>
+                    </div>
+                </li>
             </ul>
+            <div class="default-container">
+                <div class="next-main-slider-dots">
+                    <span class="active"></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
             <div class="fader-bg">
                 <div class="fader-gradient-0"></div>
                 <div class="fader-gradient-1"></div>

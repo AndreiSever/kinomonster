@@ -31,14 +31,14 @@ img {
 }
 .default-container{
     max-width: 1716px;
-    margin: auto;
+    margin: 0 auto;
 }
 header{
     /* background-color: chartreuse; */
     display: block;
     position: sticky;
     top: 0;
-    z-index: 1;
+    z-index: 3;
 }
 
 header .header-nav{
@@ -123,7 +123,21 @@ button{
     background-color: #FF501A;
     cursor: pointer;
 }
-
+.next-main-slider-dots{
+    display: flex;
+    justify-content: flex-end;
+}
+.next-main-slider-dots>span{
+    width: 13px;
+    height: 13px;
+    background-color: #808080;
+    z-index: 1;
+    margin: 0 0 0 13px;
+    border-radius: 50%;
+}
+.next-main-slider-dots>span.active{
+    background-color: #dfdfdf;
+}
 .fader-bg{
     position: absolute;
     top: 0;
@@ -135,7 +149,6 @@ button{
     height: 100%;
     background: linear-gradient(180deg, rgba(0, 0, 0, 0.01) 77.36%, rgba(0, 0, 0, 0.01) 77.36%, #0C0B0B 96.82%);
     position: absolute;
-    z-index: 2;
 }
 .fader-bg .fader-gradient-1{
     width: 100%;
@@ -175,12 +188,12 @@ button{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(237px, 1fr));
     gap: 9px;
-    position: relative;
 }
 .poster{
     min-width: 237px;
     min-height: 350px;
     transition: 250ms all;
+    
 }
 .poster:hover{
     cursor: pointer;
