@@ -11,7 +11,7 @@
 </head>
 <body>
     <header>
-        <nav class="header-nav">
+        <nav class="header-nav nav-desktop">
             <div class="header-nav-elems default-container">
                 <ul>
                     <li>
@@ -29,10 +29,31 @@
                 </ul>
             </div>
         </nav>
+        <nav class="nav-mobile">
+            <div class="header-nav-elems-mobile">
+                <ul>
+                    <li class="mobile-button">
+                        <img src="assets/img/icons/menuicon.svg" alt="">
+                    </li>
+                    <li>
+                        <a href="" class="logo">
+                            <img src="assets/img/icons/logo.svg" alt="">
+                        </a>
+                    </li>
+                </ul>
+                <ul class="second-menu-mobile">
+                    <li><a href="#">LIVE TV</a></li>
+                    <li><a href="#">MOVIES</a></li>
+                    <li><a href="#">SHOWS</a></li>
+                    <li><a href="#">LOG IN</a></li>
+                    <li><a href="#">REGISTER</a></li>
+                </ul>
+            </div>
+        </nav>
     </header>
     <main>
         <section>
-            <ul>
+            <ul class="hero">
                 <li>
                     <img class="main-slider-img"src="assets/img/hero/fight-club-cover-fructcode_4 1.jpg" alt="">
                     <div class="default-container">
@@ -47,7 +68,7 @@
                     <img class="main-slider-img"src="assets/img/hero/joker.jpg" alt="">
                     <div class="default-container">
                         <div class="hero-movie">
-                            <p>Fight Club</p>
+                            <p>Joker</p>
                             <p>Discontented with his capitalistic lifestyle, a white-collared insomniac forms an underground fight club with Tyler</p>
                             <button>WATCH NOW</button>
                         </div>
@@ -57,7 +78,7 @@
                     <img class="main-slider-img"src="assets/img/hero/no-country-for-old-men.jpg" alt="">
                     <div class="default-container">
                         <div class="hero-movie">
-                            <p>Fight Club</p>
+                            <p>No Country For Old Men</p>
                             <p>Discontented with his capitalistic lifestyle, a white-collared insomniac forms an underground fight club with Tyler</p>
                             <button>WATCH NOW</button>
                         </div>
@@ -67,7 +88,7 @@
                     <img class="main-slider-img"src="assets/img/hero/bladerunner.jpg" alt="">
                     <div class="default-container">
                         <div class="hero-movie">
-                            <p>Fight Club</p>
+                            <p>Bladerunner</p>
                             <p>Discontented with his capitalistic lifestyle, a white-collared insomniac forms an underground fight club with Tyler</p>
                             <button>WATCH NOW</button>
                         </div>
@@ -88,7 +109,7 @@
             </div>
         </section>
         <section class="default-container">
-            <p>On now</p>
+            <p class="lbl-p">On now</p>
             <div class="posters-now">
                 <div class="poster-now">
                     <img src="assets/img/posters/2/live-with-kelly-fructcode.jpg" alt="">
