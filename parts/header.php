@@ -36,7 +36,7 @@
                         <img src="assets/img/icons/menuicon.svg" alt="">
                     </li>
                     <li>
-                        <a href="" class="logo">
+                        <a href="/" class="logo">
                             <img src="assets/img/icons/logo.svg" alt="">
                         </a>
                     </li>
@@ -45,8 +45,8 @@
                     <li><a href="#">LIVE TV</a></li>
                     <li><a href="#">MOVIES</a></li>
                     <li><a href="#">SHOWS</a></li>
-                    <li><a href="#">LOG IN</a></li>
-                    <li><a href="#">REGISTER</a></li>
+                    <li><a href="/login.php">LOG IN</a></li>
+                    <li><a href="/register.php">REGISTER</a></li>
                 </ul>
             </div>
         </nav>

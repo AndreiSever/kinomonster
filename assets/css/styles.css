@@ -7,6 +7,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+input{
+    all: unset;
+}
 body {
     background-color: #0C0B0B;
     color: white;
@@ -332,6 +335,65 @@ footer{
     padding-top: 24px;
     color: #878787;
 }
+
+.login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    flex-direction: column;
+}
+.login .form-container{
+    width: 566px;
+    background-color: #161515;
+    padding: 26px 70px 26px 70px;
+}
+.login .form-container>p:first-child{
+    text-align: center;
+    font-size: 24px;
+    color: #b8b8b8;
+}
+.login .form-container>form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.login .form-container>form>input{
+    height: 42px;
+    background-color: #404040;
+    margin-bottom: 24px;
+}
+.login .form-container>form>input>label{
+    font-size: 17px;
+    color: #a3a3a3;
+}
+.login .form-container>form>input[type=submit]{
+    background-color: #FF501A;
+    width: 136px;
+    text-align: center;
+    margin: auto;
+    cursor: pointer;
+    font-size: 20px;
+    margin-top: 57px;
+    margin-bottom: 20px;
+}
+.login .form-container>p:last-child{
+    text-align: center;
+    font-size: 15px;
+    color: #747474;
+}
+.login .form-container>p:last-child>span{
+    color: #c1c1c1;
+}
+.login>p{
+    font-size: 15px;
+    color: #747474;
+    margin-top: 20px;
+}
+.login>p>span{
+    font-size: 15px;
+    color: #c1c1c1;
+}
 @media (min-width: 1200px){
     nav.nav-desktop{
         display: block;
@@ -412,6 +474,14 @@ footer{
     }
     .next-main-slider-dots{
         justify-content: center;
+    }
+    .login{
+        height: auto;
+        margin-top: 70px;
+    }
+    .login .form-container{
+        width: auto;
+        margin: auto;
     }
 }
 @media (max-width: 1723px){
